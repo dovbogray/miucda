@@ -1,0 +1,10 @@
+# Netlify config (не обов'язково, але корисно)
+[build]
+  publish = "."
+  command = ""
+
+# Перенаправлення на головну для SPA (прибрати, якщо не потрібно)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
